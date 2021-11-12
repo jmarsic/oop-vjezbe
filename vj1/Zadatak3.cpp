@@ -3,7 +3,7 @@
 using namespace std;
 
 
-int find_Min_Max(int *arr, int arrSize, int *min, int *max)
+void find_Min_Max(int *arr, int arrSize, int *min, int *max)
 {
     for(int i = 0; i < arrSize; i++)
     {
@@ -16,7 +16,6 @@ int find_Min_Max(int *arr, int arrSize, int *min, int *max)
             *max = arr[i];
         }
     }
-    return(arr, arrSize, *min, *max);
 }
 
 int main()

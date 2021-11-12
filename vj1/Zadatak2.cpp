@@ -138,6 +138,20 @@ Matrica mul(Matrica prva, Matrica druga)
     return treca;
 }
 
+Matrica transpozeMatrix(Matrica prva)
+{
+	Matrica trsMat;
+	trsMat.createMatrix(prva.row, prva.column);
+	for (int i = 0; i < trsMat.row; i++)
+	{
+		for (int j = 0; j < trsMat.column; j++)
+		{
+			trsMat.matrix[j][i] = prva.matrix[i][j];
+		}
+	}
+	return trsMat;
+}
+
 
 int main()
 {
@@ -153,6 +167,8 @@ int main()
     treca = sum(prva, druga);
     treca.printMatrix();
 
+	treca = mul(prva, druga);
+	treca.printMatrix();
 
     system("pause");
 }
