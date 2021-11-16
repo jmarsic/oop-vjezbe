@@ -1,0 +1,5 @@
+﻿  Source.cpp
+C:\Users\Jake\source\repos\vj2\zad3\Source.cpp(28,23): error C7555: use of designated initializers requires at least '/std:c++latest'
+C:\Users\Jake\source\repos\vj2\zad3\Source.cpp(31,24): error C7555: use of designated initializers requires at least '/std:c++latest'
+C:\Users\Jake\source\repos\vj2\zad3\Source.cpp(32,24): error C7555: use of designated initializers requires at least '/std:c++latest'
+C:\Users\Jake\source\repos\vj2\zad3\Source.cpp(33,24): error C7555: use of designated initializers requires at least '/std:c++latest'

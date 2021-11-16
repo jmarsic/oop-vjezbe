@@ -1,0 +1,5 @@
+﻿  main.cpp
+C:\Users\Jake\source\repos\vjezba3\zad2\main.cpp(36,19): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Jake\source\repos\vjezba3\zad2\main.cpp(39,23): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Jake\source\repos\vjezba3\zad2\main.cpp(57,23): warning C4018: '<': signed/unsigned mismatch
+  zad2.vcxproj -> C:\Users\Jake\source\repos\vjezba3\Debug\zad2.exe
